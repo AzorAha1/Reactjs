@@ -1,0 +1,19 @@
+.counter {
+    text-align: center;
+    font-size: 100px
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between; /* Space between buttons */
+    gap: 10px; /* Space between elements */
+    max-width: 500px; /* Adjust to your desired width */
+    margin: 0 auto; /* Center the container */
+}
+.button {
+    padding: 30px;
+    background-color: aqua;
+    border-radius: 10px;
+    border-color: black;
+    
+}
