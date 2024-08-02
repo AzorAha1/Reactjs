@@ -1,6 +1,6 @@
 function Button(){
-    const theclick = () => {
-        console.log("You clicked me");
+    const theclick = (e) => {
+        e.target.textContent = "No info bozo"
     }
     return (
     <button className="card-button" onClick={theclick}>Check info</button>
