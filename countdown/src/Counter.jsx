@@ -3,10 +3,10 @@ import { useState } from 'react'
 function Counter(props) {
     const [count, UseCount] = useState(0)
     const IncrementCount = () => {
-        UseCount(count + 1)
+        UseCount(c => c + 1)
     } 
     const DecrementCount = () => {
-        UseCount(count - 1)
+        UseCount(c => c - 1)
     }
     const ResetCount = () => {
         UseCount(0)
