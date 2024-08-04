@@ -1,0 +1,62 @@
+body {
+    background-color: hsla(0, 0%, 8%, 0.884);
+}
+.Todo-list {
+    text-align: center
+}
+.inputdec {
+    font-size: 20px;
+    margin: 5px;
+    padding: 5px 10px;
+    border: 2px 1px solid hsla(0, 0%, 0%, 0.288);
+    border-radius: 5px;
+}
+.inputbut {
+    color: white;
+    background-color: hsl(120, 90%, 53%);
+    padding: 10px 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+.inputbut:hover {
+    background-color: hsla(120, 89%, 18%, 0.849);
+}
+li {
+    border: 1px solid hsla(308, 75%, 58%, 0.548);
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.todotext {
+    flex-grow: 1;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+.delete-button {
+    background-color: hsl(0, 100%, 50%);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px;
+    padding: 10px 20px
+}
+.move-button {
+    background-color: hsl(239, 90%, 53%);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+    padding: 10px 20px
+}
